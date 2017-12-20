@@ -1,7 +1,11 @@
 # Play Super Mario theme on a browser
 Play Super Mario theme using WebAudio API.
 
-For Detail: 
+* Demo
+    * http://mario.playcode.io
+
+* For detail: 
+    * https://qiita.com/bbq-all-stars/items/676824602f97d1dda597
 
 # Reference
 * Super Mario Theme Score

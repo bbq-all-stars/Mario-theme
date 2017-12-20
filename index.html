@@ -1,0 +1,243 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script>
+            var marioScore = [
+                {frequency:660,length:100,delay:150},
+                {frequency:660,length:100,delay:300},
+                {frequency:660,length:100,delay:300},
+                {frequency:510,length:100,delay:100},
+                {frequency:660,length:100,delay:300},
+                {frequency:770,length:100,delay:550},
+                {frequency:380,length:100,delay:575},
+
+                {frequency:510,length:100,delay:450},
+                {frequency:380,length:100,delay:400},
+                {frequency:320,length:100,delay:500},
+                {frequency:440,length:100,delay:300},
+                {frequency:480,length:80,delay:330},
+                {frequency:450,length:100,delay:150},
+                {frequency:430,length:100,delay:300},
+                {frequency:380,length:100,delay:200},
+                {frequency:660,length:80,delay:200},
+                {frequency:760,length:50,delay:150},
+                {frequency:860,length:100,delay:300},
+                {frequency:700,length:80,delay:150},
+                {frequency:760,length:50,delay:350},
+                {frequency:660,length:80,delay:300},
+                {frequency:520,length:80,delay:150},
+                {frequency:580,length:80,delay:150},
+                {frequency:480,length:80,delay:500},
+
+                {frequency:510,length:100,delay:450},
+                {frequency:380,length:100,delay:400},
+                {frequency:320,length:100,delay:500},
+                {frequency:440,length:100,delay:300},
+                {frequency:480,length:80,delay:330},
+                {frequency:450,length:100,delay:150},
+                {frequency:430,length:100,delay:300},
+                {frequency:380,length:100,delay:200},
+                {frequency:660,length:80,delay:200},
+                {frequency:760,length:50,delay:150},
+                {frequency:860,length:100,delay:300},
+                {frequency:700,length:80,delay:150},
+                {frequency:760,length:50,delay:350},
+                {frequency:660,length:80,delay:300},
+                {frequency:520,length:80,delay:150},
+                {frequency:580,length:80,delay:150},
+                {frequency:480,length:80,delay:500},
+
+                {frequency:500,length:100,delay:300},
+
+                {frequency:760,length:100,delay:100},
+                {frequency:720,length:100,delay:150},
+                {frequency:680,length:100,delay:150},
+                {frequency:620,length:150,delay:300},
+
+                {frequency:650,length:150,delay:300},
+                {frequency:380,length:100,delay:150},
+                {frequency:430,length:100,delay:150},
+
+                {frequency:500,length:100,delay:300},
+                {frequency:430,length:100,delay:150},
+                {frequency:500,length:100,delay:100},
+                {frequency:570,length:100,delay:220},
+
+                {frequency:500,length:100,delay:300},
+
+                {frequency:760,length:100,delay:100},
+                {frequency:720,length:100,delay:150},
+                {frequency:680,length:100,delay:150},
+                {frequency:620,length:150,delay:300},
+
+                {frequency:650,length:200,delay:300},
+
+                {frequency:1020,length:80,delay:300},
+                {frequency:1020,length:80,delay:150},
+                {frequency:1020,length:80,delay:300},
+
+                {frequency:380,length:100,delay:300},
+                {frequency:500,length:100,delay:300},
+
+                {frequency:760,length:100,delay:100},
+                {frequency:720,length:100,delay:150},
+                {frequency:680,length:100,delay:150},
+                {frequency:620,length:150,delay:300},
+
+                {frequency:650,length:150,delay:300},
+                {frequency:380,length:100,delay:150},
+                {frequency:430,length:100,delay:150},
+
+                {frequency:500,length:100,delay:300},
+                {frequency:430,length:100,delay:150},
+                {frequency:500,length:100,delay:100},
+                {frequency:570,length:100,delay:420},
+
+                {frequency:585,length:100,delay:450},
+
+                {frequency:550,length:100,delay:420},
+
+                {frequency:500,length:100,delay:360},
+
+                {frequency:380,length:100,delay:300},
+                {frequency:500,length:100,delay:300},
+                {frequency:500,length:100,delay:150},
+                {frequency:500,length:100,delay:300},
+
+                {frequency:500,length:100,delay:300},
+
+                {frequency:760,length:100,delay:100},
+                {frequency:720,length:100,delay:150},
+                {frequency:680,length:100,delay:150},
+                {frequency:620,length:150,delay:300},
+
+                {frequency:650,length:150,delay:300},
+                {frequency:380,length:100,delay:150},
+                {frequency:430,length:100,delay:150},
+
+                {frequency:500,length:100,delay:300},
+                {frequency:430,length:100,delay:150},
+                {frequency:500,length:100,delay:100},
+                {frequency:570,length:100,delay:220},
+
+                {frequency:500,length:100,delay:300},
+
+                {frequency:760,length:100,delay:100},
+                {frequency:720,length:100,delay:150},
+                {frequency:680,length:100,delay:150},
+                {frequency:620,length:150,delay:300},
+
+                {frequency:650,length:200,delay:300},
+
+                {frequency:1020,length:80,delay:300},
+                {frequency:1020,length:80,delay:150},
+                {frequency:1020,length:80,delay:300},
+
+                {frequency:380,length:100,delay:300},
+                {frequency:500,length:100,delay:300},
+
+                {frequency:760,length:100,delay:100},
+                {frequency:720,length:100,delay:150},
+                {frequency:680,length:100,delay:150},
+                {frequency:620,length:150,delay:300},
+
+                {frequency:650,length:150,delay:300},
+                {frequency:380,length:100,delay:150},
+                {frequency:430,length:100,delay:150},
+
+                {frequency:500,length:100,delay:300},
+                {frequency:430,length:100,delay:150},
+                {frequency:500,length:100,delay:100},
+                {frequency:570,length:100,delay:420},
+
+                {frequency:585,length:100,delay:450},
+
+                {frequency:550,length:100,delay:420},
+
+                {frequency:500,length:100,delay:360},
+
+                {frequency:380,length:100,delay:300},
+                {frequency:500,length:100,delay:300},
+                {frequency:500,length:100,delay:150},
+                {frequency:500,length:100,delay:300},
+
+                {frequency:500,length:60,delay:150},
+                {frequency:500,length:80,delay:300},
+                {frequency:500,length:60,delay:350},
+                {frequency:500,length:80,delay:150},
+                {frequency:580,length:80,delay:350},
+                {frequency:660,length:80,delay:150},
+                {frequency:500,length:80,delay:300},
+                {frequency:430,length:80,delay:150},
+                {frequency:380,length:80,delay:600},
+
+                {frequency:500,length:60,delay:150},
+                {frequency:500,length:80,delay:300},
+                {frequency:500,length:60,delay:350},
+                {frequency:500,length:80,delay:150},
+                {frequency:580,length:80,delay:150},
+                {frequency:660,length:80,delay:550},
+
+                {frequency:870,length:80,delay:325},
+                {frequency:760,length:80,delay:600},
+
+                {frequency:500,length:60,delay:150},
+                {frequency:500,length:80,delay:300},
+                {frequency:500,length:60,delay:350},
+                {frequency:500,length:80,delay:150},
+                {frequency:580,length:80,delay:350},
+                {frequency:660,length:80,delay:150},
+                {frequency:500,length:80,delay:300},
+                {frequency:430,length:80,delay:150},
+                {frequency:380,length:80,delay:600},
+
+                {frequency:660,length:100,delay:150},
+                {frequency:660,length:100,delay:300},
+                {frequency:660,length:100,delay:300},
+                {frequency:510,length:100,delay:100},
+                {frequency:660,length:100,delay:300},
+                {frequency:770,length:100,delay:550},
+                {frequency:380,length:100,delay:575}
+            ];
+
+            window.AudioContext = window.webkitAudioContext||window.AudioContext;
+            var audioCtx = new AudioContext();
+            var time;
+
+            function _createSound(f, type, playingDuration, stoppedDuration){
+                var gainNode = audioCtx.createGain();
+                gainNode.gain.value = 0.2;
+
+                var osc = audioCtx.createOscillator();
+                osc.connect(gainNode);
+                gainNode.connect(audioCtx.destination);
+
+                osc.type = type;
+                osc.frequency.value = f;
+                osc.start(time);
+                time += playingDuration / 1000;
+                osc.stop(time);
+                time += stoppedDuration / 1000;
+            }
+
+            function play() {
+                time = audioCtx.currentTime;
+                for (var i=0; i < marioScore.length; i++){
+                    _createSound(marioScore[i].frequency, 'square', marioScore[i].length, marioScore[i].delay);
+                }
+            }
+        </script>
+        <p>
+            Mario Theme
+        </p>
+        <p>
+            <img src="./img/mario.png">
+        </p>
+        <p>
+            <button onclick="play()">Play!</button>
+        </p>
+    </body>
+</html>
